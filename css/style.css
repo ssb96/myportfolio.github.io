@@ -347,14 +347,16 @@ header .nav-bar{
 /*======= About section =======*/
 .about-me h2{
   font-size: 2.5vw;
-  padding-bottom: 4rem;
   font-weight: 600;
   font-family: 'Abril Fatface', cursive;
   color: var(--dark-color);
 }
 
 .about-me p{
-  font-size: 1.5vw;
+  margin-top: 1vw;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5rem;
+  color: var(--dark-color);
 }
 
 .about-me{
@@ -402,16 +404,16 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .ui-design h2{
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   font-weight: 600;
   font-family: 'Abril Fatface', cursive;
   color: var(--dark-color);
 }
 
 .ui-design p{
-  margin-top: 1rem;
+  margin-top: 1vw;
   font-family: 'Abril Fatface', cursive;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   color: var(--dark-color);
 }
 
@@ -467,11 +469,10 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 
   .about-me h2{
-    font-size: 8vw;
-    padding-bottom: 4rem;
-    font-weight: 600;
-    font-family: 'Abril Fatface', cursive;
-    color: var(--dark-color);
+    font-size: 10vw;
+  font-weight: 600;
+  font-family: 'Abril Fatface', cursive;
+  color: var(--dark-color);
   }
   
   .about-me p{
@@ -510,7 +511,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 
   .ui-design h2{
-    font-size: 8vw;
+    font-size: 10vw;
     font-weight: 600;
     font-family: 'Abril Fatface', cursive;
     color: var(--dark-color);

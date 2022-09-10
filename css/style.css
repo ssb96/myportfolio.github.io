@@ -368,37 +368,35 @@ header .nav-bar{
   align-items: center;
 } */
 
-.about-me-box{
+/* .about-me-box{
 padding: 32px;
 gap: 8px;
 width: auto;
 height: auto;
 transition: all 0.5s ease-out;
 font-family: 'Quicksand', sans-serif;
-/* background: var(--section-bg-color); */
 color: var(--dark-color);
 backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
-/* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+} */
 
 .about h2{
-  font-size: 2.5vw;
-  font-weight: 600;
+  font-size: 3.5vw;
+  font-weight: 700;
   font-family: 'Quicksand', sans-serif;
   color: var(--dark-color);
 }
 
 .about p{
-  margin-top: 1vw;
+  margin-top: 1rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: var(--dark-color);
 }
 
 .about{
-  padding-block: 4rem;
+  padding-block: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -538,22 +536,27 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     gap: 2rem;
     margin-top: 4rem;
 }
-} 
+}
 
-.box{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+.box-myself{
 padding: 24px;
-gap: 8px;
-width: 338px;
+width: 50rem;
 height: auto;
 transition: all 0.5s ease-out;
-/* background: var(--section-bg-color); */
 color: var(--dark-color);
 backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
-/* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.box{
+padding: 24px;
+width: 338px;
+height: auto;
+transition: all 0.5s ease-out;
+color: var(--dark-color);
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -819,27 +822,22 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
   /*======= About section =======*/
   .about h2{
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .about p{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
-  /* .about-me h2{
-    font-size: 2.5em;
-  }
-
-  .about-me p{
-    font-size: 0.9em;
-  }
-
-  .ui-design h2{
-    font-size: 2.5em;
-  }
-
-  .ui-design p{
-    font-size: 0.9em;
-  } */
+  .box-myself{
+    padding: 24px;
+    width: auto;
+    height: auto;
+    transition: all 0.5s ease-out;
+    color: var(--dark-color);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
 }
       

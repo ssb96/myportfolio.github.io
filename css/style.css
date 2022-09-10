@@ -90,14 +90,14 @@
   background: var(--body-bg-color);
 } */
 
-section{
+/* section{
   position: relative;
-}
+} */
 
-.section{
+.bg-section{
   color: var(--white-color);
   background: var(--section-bg-color);
-  padding: 35px 200px;
+  padding-block: 6rem;
   transition: 0.3s ease;
 }
 
@@ -345,233 +345,140 @@ header .nav-bar{
   margin: 10px 0;
 }
 
-/*======= About section =======*/
-/* .about-me h2{
-  font-size: 2.5vw;
-  font-weight: 600;
-  font-family: 'Abril Fatface', cursive;
+/*=============== text part=============== */
+.h2-custom{
+  font-size: 3rem;
   color: var(--dark-color);
-}
-
-.about-me p{
-  margin-top: 1vw;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 1.5rem;
-  color: var(--dark-color);
-}
-
-.about-me{
-  padding-block: 8rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .about-me-box{
-padding: 32px;
-gap: 8px;
-width: auto;
-height: auto;
-transition: all 0.5s ease-out;
-font-family: 'Quicksand', sans-serif;
-color: var(--dark-color);
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-} */
-
-.about h2{
-  font-size: 3.5vw;
+  padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Quicksand', sans-serif;
-  color: var(--dark-color);
 }
 
-.about p{
-  margin-top: 1rem;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.5vw;
-  color: var(--dark-color);
+.h2-custom::after{
+  content: "";
+  position: absolute;
+  top: 128%;
+  left: 34rem;
+  min-width: 26rem;
+  height: 0.3rem;
+  background-color: var(--dark-color);
 }
 
-.about{
-  padding-block: 8rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* .ui-design h2{
-  font-size: 2.5vw;
-  font-weight: 600;
-  font-family: 'Abril Fatface', cursive;
-  color: var(--dark-color);
-} */
-
-/* .ui-design p{
-  margin-top: 1vw;
-  font-family: 'Abril Fatface', cursive;
+.p-custom{
   font-size: 1.5rem;
   color: var(--dark-color);
-} */
-
-/* .ui-design{
-  padding-block: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
- .even-columns-first{
-    display: flex;
-    gap: 24rem;
-    margin-top: 4rem;
-}
- .even-columns-second{
-    display: flex;
-    gap: 1rem;
-    margin-top: 4rem;
-}
- .even-columns-third{
-    display: flex;
-    gap: 1rem;
-    margin-top: 4rem;
-}
-
-@media only screen and (max-width: 785px){
-    .even-columns-first{
-        display: flex;
-        flex-direction: column;
-        gap:2rem;
-    }
-
-    .even-columns-second{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      margin-top: 4rem;
-  }
-
-  /* .about-me h2{
-    font-size: 2vw;
-    font-weight: 600;
-    font-family: 'Abril Fatface', cursive;
-    color: var(--dark-color);
-  }
-  
-  .about-me p{
-    margin-top: 1.5vw;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 1.5rem;
-    color: var(--dark-color);
-  }
-  
-  .about-me{
-    padding-block: 8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .about h2{
-    font-size: 2vw;
-    font-weight: 600;
-    font-family: 'Abril Fatface', cursive;
-    color: var(--dark-color);
-  }
-  
-  .about p{
-    margin-top: 1.5vw;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 1.5rem;
-    color: var(--dark-color);
-  }
-  
-  .about{
-    padding-top: 8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-
-  .ui-design h2{
-    font-size: 2vw;
-    font-weight: 600;
-    font-family: 'Abril Fatface', cursive;
-    color: var(--dark-color);
-  }
-  
-  .ui-design p{
-    margin-top: 1.5vw;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 1.5rem;
-    color: var(--dark-color);
-  }
-  
-  .ui-design{
-    padding-block: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  } */
-} 
-
-@media only screen and (max-width: 1100px){
-  .even-columns-first{
-      display: flex;
-      flex-direction: column;
-      gap:2rem;
-  }
-
-  .even-columns-second{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 4rem;
-}
-}
-
-.box-myself{
-padding: 24px;
-width: 50rem;
-height: auto;
-transition: all 0.5s ease-out;
-color: var(--dark-color);
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding-bottom: 1rem;
+  font-weight: 400;
 }
 
 .box{
-padding: 24px;
-width: 338px;
-height: auto;
-transition: all 0.5s ease-out;
-color: var(--dark-color);
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background: rgb(243, 243, 246);
+  width: 60%;
+  height: auto;
+  padding: 2rem;
+  margin: 3rem auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+  box-shadow: 1.2rem 1.2rem 0 0 #303032;
 }
 
-.box:hover{
-  transform: translateY(-10px);
-  cursor: pointer;
+.flex-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-.box p{
+
+.width{
+  width: 100%;       /*=========== width ============*/
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 785px) {
+
+  .h2-custom{
+    font-size: 8vw;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  .p-custom{
+    font-size: 3vw;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .box{
+    background: rgb(211, 211, 226);
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    margin: 1rem auto;
+  }
+}
+
+
+/*========================== ui-ux-software css=============== */
+
+.packet{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.block{
+  background: rgb(243, 243, 246);
+  width: 34%;
+  height: auto;
+  padding: 4rem;
+  margin: 4rem auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+  box-shadow: 1rem 1rem 0 0 #505051;
+}
+
+.block h3{
+  font-size: 2.2rem;
+  color: var(--dark-color);
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.block p{
   font-size: 1rem;
-  font-family: 'Quicksand', sans-serif;
+  color: var(--dark-color);
+  font-weight: 400;
 }
-.box h3{
-  font-size: 2rem;
-  font-family: 'Quicksand', sans-serif;
+
+
+
+.packet-2{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
+
+.block-2{
+  background: rgb(243, 243, 246);
+  width: 22%;
+  height: auto;
+  padding: 2rem;
+  margin: 4rem auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+  box-shadow: 1rem 1rem 0 0 #505051;
+}
+
+.block-2 h3{
+  font-size: 2.2rem;
+  color: var(--dark-color);
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.block-2 p{
+  font-size: 1rem;
+  color: var(--dark-color);
+  font-weight: 400;
+}
+
+
 
 
 /*================ Button ==========*/
@@ -607,7 +514,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 /*================ Picture gallery =========*/
 
 .wrapper{
-  width: 100%;
+  width: 85%;
   margin: 4rem auto;
   
 }
@@ -623,19 +530,6 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   padding: 2rem; 
    
 }
-
- /* @media only screen and (max-width: 1100px) {
-
-  .wrapper{
-      width: 100%;
-      margin: 6% auto;
-      display: flex;
-      flex-direction: row;
-  }
-
-  .wrapper a img{
-      width: 100%;
-  }  */
 
   @media only screen and (max-width: 785px) {
 
@@ -653,22 +547,6 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
         width: 400%;
     }
 
-    /* @media only screen and (max-width: 428px) {
-
-      .wrapper{
-          width: 100%;
-          margin: 6% auto;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-      }
-    
-      .wrapper a img{
-          width: 200%;
-      } */
-
-
   /*============== ui-skills section=========== */
 
  
@@ -678,10 +556,12 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /*======= Media queries (max-width: 1100px) =======*/
-@media screen and (max-width: 1100px){
+
+ @media screen and (max-width: 1100px){
+  
   header .nav-bar{
     padding: 0 50px;
   }
@@ -821,23 +701,13 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 
   /*======= About section =======*/
-  .about h2{
+  /* .about h2{
     font-size: 2em;
   }
 
   .about p{
     font-size: 0.8em;
-  }
+  } */
 
-  .box-myself{
-    padding: 24px;
-    width: auto;
-    height: auto;
-    transition: all 0.5s ease-out;
-    color: var(--dark-color);
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    }
 }
       

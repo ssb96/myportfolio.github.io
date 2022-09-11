@@ -385,7 +385,7 @@ header .nav-bar{
 @media only screen and (max-width: 785px) {
 
   .h2-custom{
-    font-size: 8vw;
+    font-size: 6vw;
     color: var(--dark-color);
     padding-bottom: 1rem;
     font-weight: 700;
@@ -394,7 +394,31 @@ header .nav-bar{
     font-size: 3vw;
     color: var(--dark-color);
     padding-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 400;
+  }
+
+  .box{
+    background: rgb(211, 211, 226);
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    margin: 1rem auto;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+
+  .h2-custom{
+    font-size: 6vw;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  .p-custom{
+    font-size: 3vw;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 400;
   }
 
   .box{
@@ -478,7 +502,7 @@ header .nav-bar{
   margin: 4rem auto;
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
   box-shadow: 1rem 1rem 0 0 #505051;
-  transform: translatey(-50px);
+  /* transform: translatey(-50px); */
 }
 
 .block-2 h3{
@@ -492,6 +516,176 @@ header .nav-bar{
   font-size: 1rem;
   color: var(--dark-color);
   font-weight: 400;
+}
+
+@media only screen and (max-width: 785px){
+
+  .packet{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .block{
+    background: rgb(243, 243, 246);
+    width: 80%;
+    height: auto;
+    padding: 4rem;
+    margin: 4rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: 1rem 1rem 0 0 #505051;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }
+  
+  .block:hover{
+    background: rgb(243, 243, 246);
+    width: 34%;
+    height: auto;
+    padding: 4rem;
+    margin: 4rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: 1rem 1rem 0 0 #505051;
+    transform: translatex(50px);
+  }
+  
+  .block h3{
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .block p{
+    font-size: 1rem;
+    color: var(--dark-color);
+    font-weight: 300;
+  }
+
+  
+  .packet-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .block-2{
+    background: rgb(243, 243, 246);
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    margin: 4rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: 1rem 1rem 0 0 #505051;
+    cursor: pointer;
+  }
+  
+  .block-2:hover{
+    background: rgb(243, 243, 246);
+    width: 22%;
+    height: auto;
+    padding: 2rem;
+    margin: 4rem auto;
+    box-shadow: 1rem 1rem 0 0 #505051;
+    
+  }
+  
+  .block-2 h3{
+    font-size: 2.2rem;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .block-2 p{
+    font-size: 1rem;
+    color: var(--dark-color);
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 900px){
+
+  .packet{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .block{
+    background: rgb(243, 243, 246);
+    width: 38%;
+    height: auto;
+    padding: 4rem;
+    margin: 4rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: 1rem 1rem 0 0 #505051;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }
+  
+  .block:hover{
+    background: rgb(243, 243, 246);
+    width: 34%;
+    height: auto;
+    padding: 4rem;
+    margin: 4rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: 1rem 1rem 0 0 #505051;
+    transform: translatex(50px);
+  }
+  
+  .block h3{
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .block p{
+    font-size: 1rem;
+    color: var(--dark-color);
+    font-weight: 300;
+  }
+
+  
+  .packet-2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .block-2{
+    background: rgb(243, 243, 246);
+    width: 60%;
+    height: auto;
+    padding: 2rem;
+    margin: 4rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: 1rem 1rem 0 0 #505051;
+    cursor: pointer;
+  }
+  
+  .block-2:hover{
+    background: rgb(243, 243, 246);
+    width: 22%;
+    height: auto;
+    padding: 2rem;
+    margin: 4rem auto;
+    box-shadow: 1rem 1rem 0 0 #505051;
+    
+  }
+  
+  .block-2 h3{
+    font-size: 2.2rem;
+    color: var(--dark-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .block-2 p{
+    font-size: 1rem;
+    color: var(--dark-color);
+    font-weight: 400;
+  }
 }
 
 /* ===========================section of hiring================== */
@@ -542,8 +736,21 @@ position: relative;
     }
    }
 
-   /* contact us */
 
+   @media only screen and (max-width: 900px){
+    .hire-me{
+      background-image: url('../images/bg1.webp');
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-attachment: fixed;
+        position: relative;
+        transition: all 0.7s linear;
+        text-align: center;
+    }
+   }
+
+
+   /*============================ contact us =================*/
    .section-contact-main{
     max-width: 55rem;
     margin: 0 auto;
@@ -568,6 +775,16 @@ position: relative;
     width: 100%;
 }
 
+@media only screen and (max-width: 900px){
+  
+  .section-contact-main{
+    max-width: 45rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    transition: all 0.3s linear;
+} }
+  
+
 
 /*===================== grid================= */
 
@@ -578,6 +795,17 @@ position: relative;
 
 .grid-two-columns{
   grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 900px){
+  .grid{
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .grid-two-columns{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 
